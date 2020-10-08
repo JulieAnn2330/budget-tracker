@@ -7,19 +7,19 @@
   e. npm i compression -- DONE
   f. npm i nodemon - so I don't have to keep restarting server -- DONE
 2. User needs
-  a. Enter deposits offline
-  b. Enter expenses offline
+  a. Enter deposits offline -- DONE
+  b. Enter expenses offline -- DONE
   c. Populate database when brought online
 3. Files to create/update
-  a. db.js in public - for indexedDB
-  b. Update server for heroku
+  a. db.js in public - for indexedDB -- DONE
+  b. Update server for heroku -- DONE
   c. Update package.json for nodeomon -- DONE
 4. Deployment
-  a. MongoDB Atlas
-  b. Heroku
+  a. MongoDB Atlas -- DONE
+  b. Heroku -- DONE
 5. Submission criteria
-  a. URL to deployed app on heroku
-  b. GitHub repo
+  a. URL to deployed app on heroku -- DONE
+  b. GitHub repo -- DONE
 */
 
 const express = require("express");
