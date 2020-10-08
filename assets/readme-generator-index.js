@@ -97,8 +97,7 @@ function promptUser() {
           name: 'technology',
           choices: [
                'HTML',
-               'CSS',
-               'Bootstrap',
+               'CSS', 
                'JavaScript',
                'jQuery',
                'moment.js',
