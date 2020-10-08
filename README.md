@@ -1,63 +1,77 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+<div id = "top">
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+<h2>Budget Tracker</h2> <a href="#license"><img src= "https://img.shields.io/badge/License-MIT-blue.svg"></a><br>
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+<hr color= "slateblue" noshade>
 
-Offline Functionality:
+<h2>Table of Contents:</h2>
+<a href="#description" class="contents">1. Description of Project</><br>
+<a href="#technology" class="contents">2. Technologies Used</a><br>
+<a href="#installation" class="contents">3. Installation Directions</a><br>
+<a href="#use" class="contents">4. How to Use the Project</a><br>
+<a href="#contributors" class="contents">5. Contributing</a><br> 
+<a href="#questions" class="contents">6. Questions or Comments</a><br>
+<a href="#license" class="contents">7. License</a><br>
+<a href="#screenshot" class="contents">8. Screenshots of Project</><br>
+<br>
 
-  * Enter deposits offline
+<hr color= "slateblue" noshade>
 
-  * Enter expenses offline
+<h3 id='description'>Description of Project</h3>
+<p>This interactive application allows the user to track and view their budget stats, including credits and debits, even if they are offline. When an internet connection is not available, the user can still enter transactions that will appear in the application. Once they come back online, the applications will save to the database. This project was a homework project through the University of Kansas Full Stack Boot Camp. This application is great on the go who need to keep track of their expenses. It would be especially useful for a businessperson who travels a lot and is not able to have online Internet access all the time. I learned a lot about indexedDataBases through this project. I also continue to hone my Heroku and Mongo skills.  This project features a graph showing debits and credits that contribute to the user's overall budget. It also works whether you have an internet connection or not, storing pending transactions until the user goes back online and then updating the database.</p><br>
+<a href="#top" id="start">(Back to Top of Page)</a><br>
+<br>
+<hr color= "slateblue" noshade>
 
-When brought back online:
+<h3 id='techology'>Technologies Used</h3>
+<p>This project incoporates the following tecnologies:<br>
+HTML,CSS,JavaScript,node.js,mongoose,mongoDB,Heroku</p><br>
+<a href="#top" id="start">(Back to Top of Page)</a><br>
+<br>
+<hr color= "slateblue" noshade>
 
-  * Offline entries should be added to tracker.
+<h3 id='installation'>Installation</h3>
+<p>To use the project the user can access the application through Heroku, which requires no installation steps. To run from command line the user will need to install the necessary dependencies and run node server from terminal.</p><br>
+<a href="#top" id="start">(Back to Top of Page)</a><br>
+<br>
+<hr color= "slateblue" noshade>
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+<h3 id='use'>How to Use the Project</h3>
+<p>To use the project enter the name of a transaction and the amount, then click the appropriate button to add funds or subtract funds.</p><br>
+<a href="#top" id="start">(Back to Top of Page)</a><br>
+<br>
+<hr color= "slateblue" noshade>
 
-## Business Context
+<h3 id='contributors'>Contributing to the Project</h3>
+<p>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+Please make sure to update tests as appropriate.</p><br>
+<a href="#top" id="start">(Back to Top of Page)</a><br>
+<br>
+<hr color= "slateblue" noshade>
 
+<h3 id='questions'>For Questions or Comments</h3>
+<p>Please contact me at github.com/JulieAnn2330 or julie.schaub@midtownfullstack.com for questions or comments.</p><br>
+<a href="#top" id="start">(Back to Top of Page)</a><br>
+<br>
+<hr color= "slateblue" noshade>
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+<h3 id='license'>License</h3>
+<p>This project incorporates the following license: <a href="https://opensource.org/licenses/MIT">MIT</a></p>
+<a href="#top" id="start">(Back to Top of Page)</a><br>
 
-- - -
+<hr color= "slateblue" noshade>
 
-## Commit Early and Often
-
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
+<h3 id='screenshot'>Screenshots</h3>
+    
+</body>
+</html> 
