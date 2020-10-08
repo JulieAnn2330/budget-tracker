@@ -105,7 +105,10 @@ function promptUser() {
                'API Calls',
                'AJAX',
                'node.js',
-               'mySQL'
+               'mySQL',
+               'mongoose',
+               'mongoDB',
+               'Heroku'
           ]},
           {
           type: 'input',
