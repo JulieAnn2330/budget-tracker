@@ -1,5 +1,11 @@
 let db;
-// create a new db request for a "budget" database.
+ //Checking if browswer supports index.db
+window.mozIndexedDB //Firefox
+window.webkitIndexedDB //Safari and Chrome
+window.msIndexedDB // IE/Edge
+
+  if(window.indexedDB) {
+    // create a new db request for a "budget" database.
 const request = indexedDB.open("budget", 1);
 
 request.onupgradeneeded = function(event) {
@@ -19,6 +25,7 @@ request.onsuccess = function(event) {
 
 request.onerror = function(event) {
   console.log("Woops! " + event.target.errorCode);
+};
 };
 
 function saveRecord(record) {
