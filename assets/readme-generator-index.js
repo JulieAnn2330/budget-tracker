@@ -96,23 +96,25 @@ function promptUser() {
           message: '8. What technologies does your project incorporate? (Choose from list and hit enter to advance)',
           name: 'technology',
           choices: [
-               'HTML',
+               'AJAX',
+               'API Calls',
+               'Axios',
+               'Bootstrap',
                'CSS', 
+               'Heroku',
+               'HTML',
                'JavaScript',
                'jQuery',
                'moment.js',
-               'API Calls',
-               'AJAX',
-               'node.js',
-               'mySQL',
-               'mongoose',
                'mongoDB',
-               'Heroku'
+               'mongoose',
+               'mySQL',
+               'node.js'               
           ]},
           {
           type: 'input',
           name: 'installation',
-          message: '9. Are there any required steps to insall the project?'
+          message: '9. Are there any required steps to install the project?'
           },
           {
           type: 'input',
