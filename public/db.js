@@ -1,4 +1,5 @@
 let db;
+
  //Checking if browswer supports index.db
 window.mozIndexedDB //Firefox
 window.webkitIndexedDB //Safari and Chrome
