@@ -29,7 +29,7 @@
 <h3 id='description'>Description of Project</h3>
 <p>This interactive application allows the user to track and view their budget stats, including credits and debits, even if they are offline. When an internet connection is not available, the user can still enter transactions that will appear in the application. Once they come back online, the applications will save to the database. This project was a homework project through the University of Kansas Full Stack Boot Camp. This application is great on the go who need to keep track of their expenses. It would be especially useful for a businessperson who travels a lot and is not able to have online Internet access all the time. I learned a lot about indexedDataBases through this project. I also continue to hone my Heroku and Mongo skills.  This project features a graph showing debits and credits that contribute to the user's overall budget. It also works whether you have an internet connection or not, storing pending transactions until the user goes back online and then updating the database. This project has been added to my professional portfolio, the link can be found here:
 
-<a href="https://julieann2330.github.io/professional-portfolio/">Julie Schaub Professional Portfolio</a>
+<a href="https://julieann2330.github.io/professional-portfolio-2020/">Julie Schaub Professional Portfolio</a>
 
 The link to the deployed app can be found here:
 
